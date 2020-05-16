@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d5ddfd;
+    padding: 20px;
+    font-family: "Ubuntu";
+}
+
+header {
+    padding: 20px;
+    background-color: #4537c2;
+    color:white;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: "Kaushan Script";
+    font-size: 48px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
+
+.nav-tabs {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+  color: rgb(252, 232, 120);
+}
+
+p {
+    font-size: 16px;
+    margin-bottom:0px;
+}
+
+#major {
+    margin-left: 10px;
+}
+
+main { 
+    margin-top:100px;
+}
+
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+h4 {
+    font-weight: bold;
+    margin-right: 5px;
+    border-bottom: solid black;
+    width: 100%;
+}
+
+h5 {
+    color: #4537c2;
+    font-weight: bold;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+article {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.articleHeading {
+    background-color: #6488ff;
+    color:white;
+}
+
+#feature {
+    background-color: #a4b8fa;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#index-image {
+    max-height: 90px;
+    margin-bottom: 15px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 5px;
+}
+
+#list {
+    font-size: 16px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.card {
+    margin-right: 5px;
+}
+
+#portfolio-card {
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+#card-image {
+    height: 25vh;
+}
+
+#button {
+    margin-bottom: 10px;
+}
+
+#social {
+    max-height: 90px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+input[type=email], input[type=text], textarea {
+    width: 100%;
+    resize: vertical;
+  }
+
+@media screen and (max-width: 1100px) {
+    #index-image {
+        max-height: 60px;
+    }
+    body {
+        padding: 10px;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    #index-image {
+        max-height: 50px;
+    }
+    #feature {
+        padding: 10px;
+    }
+    #portfolio-card {
+        min-width: 300px;
+     }
+     #button {
+         max-width: 200px;
+     }
+     #card-image {
+        height: 40vh;
+    }
+}     
+
+@media screen and (max-width: 900px) {
+    #index-image {
+        max-height: 40px;
+    }
+    #feature p, #list {
+        font-size:15px;
+    }   
+
+@media screen and (max-width: 840px) {
+    main {
+      margin-top: 170px;
+    }
+    header {
+        text-align: center;
+        margin:0;
+    }
+    header nav {
+        text-align: center;
+        float: none;
+        margin-right:auto;
+        margin-left:auto;
+        width:395px;
+    }
+    #index-image {
+        max-height: 30px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    #portfolio-card {
+        min-width: 200px;
+        height: 90vh;
+     }
+
+    #card-image {
+        height: 30vh;
+    }
+}     
+
+@media screen and (max-width: 600px) {
+    body {
+        padding-left:0;
+        padding-right:0;
+    }
+    article{
+        padding-left:0;
+        padding-right:0;
+    }
+    #portfolio-card {
+        height: 100vh;
+    }
+    #card-image {
+        height: 40vh;
+    }
+    #social {
+        max-height: 40px;
+        padding-top:5px;
+        padding-bottom:10px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
